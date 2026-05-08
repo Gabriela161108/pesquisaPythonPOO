@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<style>
+    body {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: rgb(165, 165, 165);
+    }
+
+    img {
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    div .div1 {
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .div1 div {
+
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        background-color: rgb(219, 219, 219);
+        padding: 20px;
+    }
+</style>
+
+<body>
+    <main>
+        <h1>Pesquisa Python e POO</h1>
+
+        <div class="container mt-5">
+            <!-- Carousel Ajustado para Bootstrap 5 -->
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/static/prog.jpg" class="d-block w-100" alt="Computador com programação na tela">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/static/poo.png" class="d-block w-100" alt="Carros exemplificando estrutura POO">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/static/pro.png" class="d-block w-100" alt="Computador com programação">
+                    </div>
+                </div>
+
+                <!-- Botões com data-bs-target e data-bs-slide -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Próximo</span>
+                </button>
+            </div>
+        </div> <br><br>
+
+        <div class="div1">
+            <div>
+                <h3>Para que serve o Python?</h3>
+                <p>Python é uma poderosa linguagem de programação usada tanto para FrontEnd quanto BackEnd. Seu grande
+                    diferencial é
+                    que possui uma grande variedades e possibilidades de aplicações, sendo uma linguagem versátil e
+                    compatível
+                    com
+                    diferentes tecnologias. É ideal para iniciantes por ser mais simplificada e fácil de compreender.
+                </p>
+                <p>Muitas empresas estão interessadas em coletar, manipular e analisar dados e sua vasta biblioteca,
+                    oferece
+                    uma
+                    coleção impressionante de módulos adicionais projetados especificamente para fins analíticos. Essas
+                    ferramentas permitem que você faça quase tudo com seus dados, como limpá-los e organizá-los,
+                    explorar
+                    estatísticas ou visualizar tendências ocultas em seus dados. Além de ter essa finalidade fornecendo
+                    tanto
+                    gerenciamento, conexões com grandes bibliotecas que facilitam o desenvolvimento de projetos, design
+                    de
+                    páginas, e também funcionar no desenvolvimento de interfaces.</p>
+                <p>De acordo com isso, o Python pode ser utilizado para diversas finalidades dentro da área que foi
+                    inserido,
+                    exemplo de seu uso é a análise de dados, visualização de dados, aprendizado de máquina (IA),
+                    desenvolvimento
+                    de softwares e web, automação de tarefas diversificando seus usos e finalidades.</p>
+
+                <img src="/static/python.jpg" alt="Logo linguagem de programação Python"> <br><br>
+            </div>
+
+
+            <div>
+                <h3>Vantagens de usar na vida profissional</h3>
+
+                <ul>
+                    <li>Fácil de ler e manter</li>
+                    <li>Alta compatibilidade entre plataformas</li>
+                    <li>Biblioteca padrão poderosa</li>
+                    <li>Suporta múltiplos modelos de programação</li>
+                    <li>Simplifica o desenvolvimento</li>
+                    <li>Muitos frameworks e ferramentas open-source</li>
+                    <li>Forte suporte da comunidade</li>
+                    <li>É linguagem de alto nível</li>
+                </ul>
+            </div> <br>
+
+            <div>
+                <h3>O que é POO?</h3>
+
+                <p>A Programação Orientada a Objetos (POO) se baseia ao redor de objetos, ou seja, ele é dividido em
+                    “subcategorias” que definem atributos, descrevem ações e separam em “categorias” menores. Como dito,
+                    esses objetos são instâncias de uma classe e cada objeto possui suas ações (métodos) e
+                    particularidades
+                    (atributos). Isso pode ser, exemplificando, a humanidade (classe) que cada pessoa (objeto) possui
+                    uma
+                    característica diferente, como cor do olho, cabelo etc. (atributo) e podem executar ações como
+                    comer,
+                    pular, correr etc. (métodos). Essa estrutura aproxima a lógica do mundo virtual à realidade.</p>
+            </div> <br>
+
+            <div>
+                <h3>Qual a vantagem de utilizar a POO?</h3>
+
+                <p>Dentre suas vantagens a que mais leva destaque é a organização do código o que o torna mais fácil de
+                    manter e crescer. Entre outros pontos positivos:</p>
+
+                <ul>
+                    <li>Reutilização de código – A herança permite que o código seja reaproveitado, se tornando mais
+                        leve
+                    </li>
+                    <li>Facilidade de manutenção – se existir um erro em uma parte específica, não danificado todo o
+                        código
+                    </li>
+                    <li>Segurança – é possível esconder detalhes e deixar apenas o necessário disponível</li>
+                    <li>
+                        Flexibilidade – permite que objetos diferentes respondam a mesma ação (método) de forma
+                        diferente
+                    </li>
+                    <li>Escalabilidade – mais fácil de adicionar novas funcionalidades, ajudando no trabalho em equipe
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </main>
+</body>
+
+</html>
